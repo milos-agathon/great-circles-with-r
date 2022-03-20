@@ -47,7 +47,7 @@ get_capitals_coords <- function(cities, capitals) {
 #---------
 get_end_coords <- function(wheat_df, capitals, end, end_coords) {
 
-  wheat_df <- wheatDF()
+  wheat_df <- get_wheatDF()
   capitals <- get_capitals_coords()
 
   end <- capitals %>% 
