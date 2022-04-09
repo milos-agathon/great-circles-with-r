@@ -118,7 +118,7 @@ get_world <- function(world_shp) {
   world_shp <- giscoR::gisco_get_countries(
     year = "2016",
     epsg = "4326",
-    resolution = "10",
+    resolution = "10"
     ) %>%
     subset(NAME_ENGL!="Antarctica") # get rid of Antarctica 
   
